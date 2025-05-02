@@ -1,206 +1,115 @@
 # ISO Financial MVP
 
-A comprehensive portfolio analysis and simulation tool for crypto, NFTs, and alternative assets.
+A comprehensive financial portfolio analysis system with Monte Carlo simulation, scenario analysis, risk assessment, and interactive visualization.
 
-## Overview
+## Features
 
-ISO Financial is a financial analysis platform designed to help investors understand and manage their portfolios across traditional and alternative asset classes, with special focus on:
+- **Financial Educator**:
+  - AI-powered financial assistant using GPT models
+  - Answers financial questions with accurate information
+  - Performs complex financial calculations
+  - Access to historical data and market insights
+  - Ability to explain complex financial concepts
 
-- Cryptocurrency (tokens, DeFi, staking)
-- NFTs
-- Collectibles
-- Real-world alternative assets
+- **Simulation Engines**:
+  - Monte Carlo simulation for portfolio projections
+  - Scenario analysis for testing portfolio resilience
+  - Risk Parity optimization for portfolio allocation
+  - Conditional Value at Risk (CVaR) for tail risk analysis
+  - Bayesian scenario ranking for risk prioritization
 
-The system uses natural language queries, Monte Carlo simulations, and scenario analysis to provide insights into portfolio risk, returns, and potential outcomes.
+- **Interactive Portfolio Analysis**:
+  - Real-time portfolio simulation
+  - Adjustable time horizons and risk profiles
+  - Risk contribution analysis
+  - Scenario comparison
+  - Historical data integration
 
-## Key Features
+- **Report Generation**:
+  - Free report tier with basic analysis
+  - Premium report tier with comprehensive analysis
+  - PDF generation with charts and visualizations
+  - Standardized disclaimers and legal protection
 
-- **Natural Language Interface**: Ask questions like "What if ETH drops 40%?" or "How risky is my NFT-heavy portfolio?"
-- **Monte Carlo Simulation**: Project portfolio performance across thousands of possible market scenarios
-- **Scenario Analysis**: Test portfolio resilience against specific events like crypto crashes or regulatory changes
-- **Risk Parity Optimization**: Balance risk across different asset classes for optimal allocation
-- **Conditional Value at Risk (CVaR)**: Accurately measure downside risk beyond standard metrics
-- **Bayesian Scenario Ranking**: Prioritize risk scenarios based on probability and portfolio impact
-- **Dual Report System**: Free basic reports and premium comprehensive reports
-- **Interactive Dashboard**: Visualize and explore portfolio data with adjustable parameters
-- **Real Market Data**: Integration with Yahoo Finance for historical asset data
+- **Data Integration**:
+  - Polygon.io API for reliable market data
+  - Asset correlation analysis
+  - Ticker symbol identification from natural language
 
-## Report Types
+## Getting Started
 
-### Free Reports
-- Basic portfolio overview
-- Simple Monte Carlo projection
-- Basic risk metrics
-- Single static scenario analysis
-- Standard disclaimer
-- Premium upsell section
+### Prerequisites
 
-### Premium Reports
-- Comprehensive portfolio analysis
-- Detailed Monte Carlo simulation with statistics
-- Advanced risk analysis (CVaR, drawdown, etc.)
-- Multiple scenario analysis with recovery metrics
-- Portfolio optimization recommendations
-- Interactive dashboard access
-- Comprehensive disclaimer
+- Python 3.8+
+- pip
+- Polygon.io API key (get one at https://polygon.io/)
+- OpenAI API key (for the Financial Educator)
 
-## Architecture
-
-```
-            ┌──────────────────────┐
-            │   Frontend UI (Web)  │◄────────┐
-            └──────────────────────┘         │
-                     ▲                       │
-                     │ Natural Language Query│
-                     ▼                       │
-        ┌──────────────────────────┐         │
-        │     LLM Orchestrator     │─────────┘
-        └──────────────────────────┘
-                     │
-     ┌───────────────┼────────────────────────────────────┐
-     ▼               ▼                 ▼                  ▼
-┌────────────┐ ┌──────────────┐ ┌────────────┐ ┌────────────────────┐
-│ Monte Carlo│ │ Scenario Sim │ │ Risk Parity│ │ CVaR & Bayesian    │
-│ Simulator  │ │ Engine        │ │ Allocator  │ │ Tail Risk Analyzer │
-└────────────┘ └──────────────┘ └────────────┘ └────────────────────┘
-     ▼               ▼                 ▼                  ▼
-         ─────────────┬───────────────────────────────────
-                      ▼
-            ┌─────────────────────┐
-            │   Report Generator  │
-            └─────────────────────┘
-                      │
-       ┌─────────────┴─────────────┐
-       ▼                           ▼
-┌─────────────┐           ┌───────────────────┐
-│ Free Report │           │  Premium Report   │
-└─────────────┘           └───────────────────┘
-```
-
-## Interactive Dashboard
-
-The included Plotly Dash dashboard provides:
-
-- Interactive portfolio visualization
-- Risk contribution analysis
-- Scenario testing with real-time updates
-- Historical data comparison from Yahoo Finance
-- Optimization recommendations
-- Mobile-responsive design
-- Collapsible financial disclaimer
-
-## Installation
+### Installation
 
 1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/iso_financial_mvp.git
-   cd iso_financial_mvp
+   ```bash
+   git clone https://github.com/yourusername/iso-financial-mvp.git
+   cd iso-financial-mvp
    ```
 
 2. Install dependencies:
-   ```
+   ```bash
    pip install -r requirements.txt
    ```
 
-3. Run the API server:
+3. Set up environment variables:
+   Create a `.env` file in the project root with:
    ```
-   python -m iso_financial_mvp.app.main
-   ```
-
-4. Run just the dashboard (optional):
-   ```
-   python -m iso_financial_mvp.dashboard.dashboard
+   POLYGON=your_polygon_api_key
+   OPENAI_API_KEY=your_openai_api_key
+   OPENAI_ORG_ID=your_openai_org_id  # If applicable
    ```
 
-## Usage
+### Running the Application
 
-### API Endpoints
+Run the Streamlit application:
 
-- `POST /analyze`: Submit a natural language query with optional portfolio details
-- `POST /api/generate-report`: Generate either a free or premium report
-- `POST /api/compare-reports`: Generate both report types for comparison
-- `GET /api/download-report/<filename>`: Download a generated report
-- `GET /api/scenarios`: List available prebuilt scenarios
-- `GET /api/assets`: List available assets from metadata
-
-### Example Query
-
-```json
-{
-  "query": "What if ETH drops 40% next year?",
-  "user_profile": "intermediate",
-  "report_type": "premium",
-  "portfolio": {
-    "assets": [
-      {
-        "type": "crypto",
-        "name": "ethereum",
-        "weight": 0.4
-      },
-      {
-        "type": "crypto",
-        "name": "bitcoin",
-        "weight": 0.3
-      },
-      {
-        "type": "traditional",
-        "name": "us_stocks",
-        "weight": 0.3
-      }
-    ],
-    "initial_investment": 100000
-  }
-}
+```bash
+streamlit run app.py
 ```
+
+This launches the interactive Streamlit interface with:
+- Portfolio simulation and analysis
+- Financial Educator powered by OpenAI GPT
+- Risk assessment and scenario analysis
+- Report generation
 
 ## Project Structure
 
-```
-iso_financial_mvp/
-├── llm_interface/
-│   ├── query_parser.py
-│   └── ticker_identifier.py
-├── simulation_engines/
-│   ├── monte_carlo.py
-│   ├── scenario_analysis.py
-│   ├── risk_parity.py
-│   ├── cvar.py
-│   └── bayesian_ranker.py
-├── report_generator/
-│   ├── formatter.py
-│   ├── free_report.py
-│   ├── premium_report.py
-│   ├── report_service.py
-│   ├── disclaimer_template.py
-│   └── assets/
-├── data_sources/
-│   └── yahoo_finance.py
-├── dashboard/
-│   ├── dashboard.py
-│   ├── disclaimer_component.py
-│   └── assets/
-├── templates/
-│   ├── query_prompt.j2
-│   └── response_prompt.j2
-├── data/
-│   ├── assets_metadata.csv
-│   └── ticker_mapping.json
-├── app/
-│   ├── main.py
-│   ├── routes.py
-│   └── report_api.py
-├── requirements.txt
-└── README.md
-```
+- `iso_financial_mvp/`: Main package
+  - `data_sources/`: Market data integration modules
+  - `gpt_agent/`: Financial Educator powered by GPT models
+  - `llm_interface/`: Natural language processing modules
+  - `report_generator/`: PDF report generation
+  - `simulation_engines/`: Financial analysis algorithms
+  - `streamlit/`: Streamlit page components and utilities
+  - `toolkit/`: Financial calculation tools
+
+## Financial Educator Features
+
+The Financial Educator component is an AI-powered assistant that can:
+
+- Answer financial questions with accurate information
+- Perform financial calculations using specialized tools
+- Access real-time and historical market data
+- Run Monte Carlo simulations for portfolio analysis
+- Analyze risk metrics (VaR, CVaR, Maximum Drawdown)
+- Optimize portfolio weights for balanced risk
+- Test portfolios against various economic scenarios
+
+The system tries to use a finetuned GPT model first, then falls back to a standard GPT model if the finetuned model is unavailable.
 
 ## Disclaimer
 
-This software is for informational purposes only and does not provide financial advice. All investing involves risk, including the loss of principal. The projections generated by this tool are hypothetical and do not guarantee future results. Always consult with qualified financial professionals before making investment decisions.
+This software provides financial analysis for informational purposes only. It is not financial advice. 
+Always consult with a qualified financial advisor before making investment decisions.
 
 ## License
 
-[License information]
-
-## Contact
-
-[Contact information]
+This project is licensed under the MIT License - see the LICENSE file for details.
