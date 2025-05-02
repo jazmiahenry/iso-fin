@@ -1,0 +1,8 @@
+{
+  "id": "ftjob-8mG2ityQAHuCtzz8M1aVUzwG",
+  "status": "succeeded",
+  "model": "gpt-4.1-2025-04-14",
+  "created_at": 1745989924,
+  "finished_at": 1745990606,
+  "fine_tuned_model": "ft:gpt-4.1-2025-04-14:isoai:iso-financial-advisor-v1:BRuCm1OJ"
+}

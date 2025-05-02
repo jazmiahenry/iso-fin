@@ -1,0 +1,190 @@
+/* Dashboard Styles */
+
+/* Global styles */
+* {
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f7;
+    color: #333;
+}
+
+/* Dashboard container */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+.header {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-title {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.dashboard-subtitle {
+    margin: 0.5rem 0 0;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+/* Content container */
+.content-container {
+    display: flex;
+    flex: 1;
+    padding: 1.5rem;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 260px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-right: 1.5rem;
+}
+
+.control-group {
+    margin-bottom: 1.5rem;
+}
+
+.control-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.button {
+    background-color: #4361ee;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+.button:hover {
+    background-color: #3a56d4;
+}
+
+/* Main content */
+.main-content {
+    flex: 1;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+/* Tabs */
+.tab-content {
+    padding: 1rem 0;
+}
+
+/* Tables */
+.portfolio-table, .stats-table, .trades-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.portfolio-table th, .stats-table th, .trades-table th,
+.portfolio-table td, .stats-table td, .trades-table td {
+    padding: 0.6rem 0.8rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.portfolio-table th, .stats-table th, .trades-table th {
+    font-weight: 600;
+    background-color: #f8f9fa;
+}
+
+/* Stats boxes */
+.stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -0.5rem 1rem;
+}
+
+.stats-box {
+    flex: 1;
+    min-width: 250px;
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    border: 1px solid #eee;
+}
+
+.stats-box h4 {
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+    font-size: 1rem;
+}
+
+/* Chart container */
+.chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.chart-container > div {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* Risk reduction indicator */
+.risk-reduction {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.risk-reduction span {
+    font-weight: 600;
+    color: #2e7d32;
+}
+
+/* Footer */
+.footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: #666;
+    font-size: 0.8rem;
+    border-top: 1px solid #eee;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .content-container {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+}

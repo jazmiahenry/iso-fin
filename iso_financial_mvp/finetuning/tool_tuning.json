@@ -1,0 +1,1350 @@
+{
+    "accrued_interest": {
+      "description": "Calculate accrued interest",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate accrued interest."
+    },
+    "adjusted_book_value": {
+      "description": "Calculate adjusted book value",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate adjusted book value."
+    },
+    "all_inclusive_cost": {
+      "description": "Calculate all-inclusive cost of borrowing",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate all-inclusive cost of borrowing."
+    },
+    "approximate_convexity": {
+      "description": "Calculate approximate convexity",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate approximate convexity."
+    },
+    "approximate_modified_duration": {
+      "description": "Calculate approximate modified duration",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate approximate modified duration."
+    },
+    "arithmetic_mean": {
+      "description": "Calculate arithmetic mean",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate arithmetic mean."
+    },
+    "asset_age": {
+      "description": "Calculate average age of asset base",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate average age of asset base."
+    },
+    "asset_beta": {
+      "description": "Calculate beta of an asset",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate beta of an asset."
+    },
+    "asset_beta_correlation": {
+      "description": "Calculate beta of an asset using correlation",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate beta of an asset using correlation."
+    },
+    "asset_growth_rate": {
+      "description": "Calculate asset growth rate",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate asset growth rate."
+    },
+    "asset_renewal_rate": {
+      "description": "Calculate asset renewal rate",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate asset renewal rate."
+    },
+    "asset_total_risk": {
+      "description": "Calculate total risk of an asset",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate total risk of an asset."
+    },
+    "average_accounting_rate_of_return": {
+      "description": "Calculate average accounting rate of return (AAR)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate average accounting rate of return (aar)."
+    },
+    "average_fixed_cost": {
+      "description": "Calculate average fixed cost",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate average fixed cost."
+    },
+    "average_revenue": {
+      "description": "Calculate average revenue",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate average revenue."
+    },
+    "average_total_cost": {
+      "description": "Calculate average total cost",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate average total cost."
+    },
+    "average_useful_life": {
+      "description": "Calculate average useful life of assets at installation",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate average useful life of assets at installation."
+    },
+    "average_variable_cost": {
+      "description": "Calculate average variable cost",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate average variable cost."
+    },
+    "basic_eps": {
+      "description": "Calculate basic earnings per share (EPS)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate basic earnings per share (eps)."
+    },
+    "bayes_rule": {
+      "description": "Apply Bayes' rule to calculate posterior probability",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves apply bayes' rule to calculate posterior probability."
+    },
+    "binomial_call_price": {
+      "description": "Calculate call option price using one-period binomial model",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate call option price using one-period binomial model."
+    },
+    "binomial_mean": {
+      "description": "Calculate mean of binomial distribution",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate mean of binomial distribution."
+    },
+    "binomial_probability": {
+      "description": "Calculate binomial probability",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate binomial probability."
+    },
+    "binomial_put_price": {
+      "description": "Calculate put option price using one-period binomial model",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate put option price using one-period binomial model."
+    },
+    "binomial_std_dev": {
+      "description": "Calculate standard deviation of binomial distribution",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate standard deviation of binomial distribution."
+    },
+    "binomial_variance": {
+      "description": "Calculate variance of binomial distribution",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate variance of binomial distribution."
+    },
+    "bond_equivalent_yield": {
+      "description": "Calculate bond equivalent yield",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate bond equivalent yield."
+    },
+    "bond_price_full": {
+      "description": "Calculate full bond price",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate full bond price."
+    },
+    "bond_price_spot_rates": {
+      "description": "Calculate bond price using spot rates",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate bond price using spot rates."
+    },
+    "bond_price_zero_coupon": {
+      "description": "Calculate the price of a zero-coupon bond",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate the price of a zero-coupon bond."
+    },
+    "break_even_units": {
+      "description": "Calculate break-even units (net income = 0)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate break-even units (net income = 0)."
+    },
+    "break_point_marginal_cost_of_capital": {
+      "description": "Calculate break point for marginal cost of capital schedule",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate break point for marginal cost of capital schedule."
+    },
+    "callable_bond_price": {
+      "description": "Calculate price of callable bond",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate price of callable bond."
+    },
+    "capital_allocation_line": {
+      "description": "Calculate expected return using capital allocation line",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate expected return using capital allocation line."
+    },
+    "capital_asset_pricing_model": {
+      "description": "Calculate expected return using CAPM",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate expected return using capm."
+    },
+    "capital_market_line": {
+      "description": "Calculate expected return using capital market line",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate expected return using capital market line."
+    },
+    "cash_conversion_cycle": {
+      "description": "Calculate cash conversion cycle (net operating cycle)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cash conversion cycle (net operating cycle)."
+    },
+    "cash_flow_per_share": {
+      "description": "Calculate cash flow per share",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cash flow per share."
+    },
+    "cash_flow_to_revenue_ratio": {
+      "description": "Calculate cash flow to revenue ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cash flow to revenue ratio."
+    },
+    "cash_ratio": {
+      "description": "Calculate cash ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cash ratio."
+    },
+    "cash_return_on_assets": {
+      "description": "Calculate cash return on assets",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cash return on assets."
+    },
+    "cash_return_on_equity": {
+      "description": "Calculate cash return on equity",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cash return on equity."
+    },
+    "change_in_cash": {
+      "description": "Calculate change in cash and cash equivalents",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate change in cash and cash equivalents."
+    },
+    "chebyshev_inequality": {
+      "description": "Calculate probability from Chebyshev's inequality",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate probability from chebyshev's inequality."
+    },
+    "chi_square_variance": {
+      "description": "Calculate chi-square test statistic for population variance",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate chi-square test statistic for population variance."
+    },
+    "coefficient_of_variation": {
+      "description": "Calculate coefficient of variation",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate coefficient of variation."
+    },
+    "combination": {
+      "description": "Calculate number of combinations (nCr)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate number of combinations (ncr)."
+    },
+    "commercial_paper_cost": {
+      "description": "Calculate cost of commercial paper",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cost of commercial paper."
+    },
+    "comprehensive_income": {
+      "description": "Calculate comprehensive income",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate comprehensive income."
+    },
+    "concentration_ratio": {
+      "description": "Calculate concentration ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate concentration ratio."
+    },
+    "conditional_probability": {
+      "description": "Calculate conditional probability",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate conditional probability."
+    },
+    "confidence_interval_known_sigma": {
+      "description": "Calculate confidence interval for population mean (\u03c3 known)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate confidence interval for population mean (\u03c3 known)."
+    },
+    "confidence_interval_unknown_sigma": {
+      "description": "Calculate confidence interval for population mean (\u03c3 unknown)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate confidence interval for population mean (\u03c3 unknown)."
+    },
+    "conversion_premium": {
+      "description": "Calculate conversion premium for convertible bonds",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate conversion premium for convertible bonds."
+    },
+    "conversion_ratio": {
+      "description": "Calculate conversion ratio for convertible bonds",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate conversion ratio for convertible bonds."
+    },
+    "conversion_value": {
+      "description": "Calculate conversion value for convertible bonds",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate conversion value for convertible bonds."
+    },
+    "convert_periodic_rates": {
+      "description": "Convert between periodic rates",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves convert between periodic rates."
+    },
+    "correlation_coefficient": {
+      "description": "Calculate correlation coefficient of two discrete random variables",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate correlation coefficient of two discrete random variables."
+    },
+    "correlation_test_statistic": {
+      "description": "Calculate test statistic for testing if correlation is zero",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate test statistic for testing if correlation is zero."
+    },
+    "cost_of_equity_bond_yield_plus_risk_premium": {
+      "description": "Calculate cost of equity using bond yield plus risk premium approach",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cost of equity using bond yield plus risk premium approach."
+    },
+    "cost_of_equity_capm": {
+      "description": "Calculate cost of equity using CAPM",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cost of equity using capm."
+    },
+    "cost_of_equity_ddm": {
+      "description": "Calculate cost of equity using dividend discount model (Gordon Growth Model)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cost of equity using dividend discount model (gordon growth model)."
+    },
+    "cost_of_equity_with_flotation_absolute": {
+      "description": "Calculate cost of equity with flotation cost (absolute amount)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cost of equity with flotation cost (absolute amount)."
+    },
+    "cost_of_equity_with_flotation_percentage": {
+      "description": "Calculate cost of equity with flotation cost (percentage)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cost of equity with flotation cost (percentage)."
+    },
+    "cost_of_preferred_stock": {
+      "description": "Calculate cost of preferred stock",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cost of preferred stock."
+    },
+    "cost_of_trade_credit": {
+      "description": "Calculate cost of trade credit",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cost of trade credit."
+    },
+    "country_risk_premium": {
+      "description": "Calculate country risk premium",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate country risk premium."
+    },
+    "coupon_payment": {
+      "description": "Calculate coupon payment for a bond",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate coupon payment for a bond."
+    },
+    "covariance_discrete_rv": {
+      "description": "Calculate covariance of two discrete random variables",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate covariance of two discrete random variables."
+    },
+    "cross_price_elasticity": {
+      "description": "Calculate cross-price elasticity of demand",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cross-price elasticity of demand."
+    },
+    "current_account_balance": {
+      "description": "Calculate current account balance",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate current account balance."
+    },
+    "current_ratio": {
+      "description": "Calculate current ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate current ratio."
+    },
+    "current_yield": {
+      "description": "Calculate current yield",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate current yield."
+    },
+    "days_of_inventory_on_hand": {
+      "description": "Calculate days of inventory on hand",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate days of inventory on hand."
+    },
+    "days_of_payables": {
+      "description": "Calculate days of payables",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate days of payables."
+    },
+    "days_of_sales_outstanding": {
+      "description": "Calculate days of sales outstanding (DSO)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate days of sales outstanding (dso)."
+    },
+    "debt_coverage_ratio": {
+      "description": "Calculate debt coverage ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate debt coverage ratio."
+    },
+    "debt_payment_coverage_ratio": {
+      "description": "Calculate debt payment coverage ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate debt payment coverage ratio."
+    },
+    "debt_to_assets_ratio": {
+      "description": "Calculate debt-to-assets ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate debt-to-assets ratio."
+    },
+    "debt_to_capital_ratio": {
+      "description": "Calculate debt-to-capital ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate debt-to-capital ratio."
+    },
+    "debt_to_ebitda_ratio": {
+      "description": "Calculate debt-to-EBITDA ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate debt-to-ebitda ratio."
+    },
+    "debt_to_equity_ratio": {
+      "description": "Calculate debt-to-equity ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate debt-to-equity ratio."
+    },
+    "defensive_interval_ratio": {
+      "description": "Calculate defensive interval ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate defensive interval ratio."
+    },
+    "deferred_tax_asset_liability": {
+      "description": "Calculate deferred tax asset or liability",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate deferred tax asset or liability."
+    },
+    "degree_of_financial_leverage": {
+      "description": "Calculate degree of financial leverage (DFL)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate degree of financial leverage (dfl)."
+    },
+    "degree_of_operating_leverage": {
+      "description": "Calculate degree of operating leverage (DOL)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate degree of operating leverage (dol)."
+    },
+    "degree_of_total_leverage": {
+      "description": "Calculate degree of total leverage (DTL)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate degree of total leverage (dtl)."
+    },
+    "diluted_eps_debt_conversion": {
+      "description": "Calculate diluted EPS with convertible debt conversion",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate diluted eps with convertible debt conversion."
+    },
+    "diluted_eps_options": {
+      "description": "Calculate diluted EPS with options/warrants (treasury stock method)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate diluted eps with options/warrants (treasury stock method)."
+    },
+    "diluted_eps_preferred_conversion": {
+      "description": "Calculate diluted EPS with preferred share conversion",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate diluted eps with preferred share conversion."
+    },
+    "discount_basis_yield": {
+      "description": "Calculate discount basis yield",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate discount basis yield."
+    },
+    "dividend_payment_coverage_ratio": {
+      "description": "Calculate dividend payment coverage ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate dividend payment coverage ratio."
+    },
+    "dividend_payout_ratio": {
+      "description": "Calculate dividend payout ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate dividend payout ratio."
+    },
+    "domestic_saving_identity": {
+      "description": "Calculate domestic saving using macroeconomic identity",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate domestic saving using macroeconomic identity."
+    },
+    "double_declining_balance_depreciation": {
+      "description": "Calculate double declining balance depreciation expense",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate double declining balance depreciation expense."
+    },
+    "double_top_target_price": {
+      "description": "Calculate target price for double top pattern",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate target price for double top pattern."
+    },
+    "dupont_roe_basic": {
+      "description": "Calculate ROE using basic DuPont analysis",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate roe using basic dupont analysis."
+    },
+    "duration_gap": {
+      "description": "Calculate duration gap",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate duration gap."
+    },
+    "ebitda_interest_coverage": {
+      "description": "Calculate EBITDA interest coverage",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate ebitda interest coverage."
+    },
+    "economic_profit": {
+      "description": "Calculate economic profit",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate economic profit."
+    },
+    "effective_annual_rate": {
+      "description": "Calculate the effective annual rate given a nominal rate",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate the effective annual rate given a nominal rate."
+    },
+    "effective_convexity": {
+      "description": "Calculate effective convexity",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate effective convexity."
+    },
+    "effective_duration": {
+      "description": "Calculate effective duration",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate effective duration."
+    },
+    "ending_accounts_payable": {
+      "description": "Calculate ending accounts payable",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate ending accounts payable."
+    },
+    "ending_accounts_receivable": {
+      "description": "Calculate ending accounts receivable",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate ending accounts receivable."
+    },
+    "ending_bond_book_value": {
+      "description": "Calculate ending book value of a bond",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate ending book value of a bond."
+    },
+    "ending_interest_payable": {
+      "description": "Calculate ending interest payable",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate ending interest payable."
+    },
+    "ending_inventory": {
+      "description": "Calculate ending inventory",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate ending inventory."
+    },
+    "ending_retained_earnings": {
+      "description": "Calculate ending retained earnings",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate ending retained earnings."
+    },
+    "ending_wages_payable": {
+      "description": "Calculate ending wages payable",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate ending wages payable."
+    },
+    "enterprise_value": {
+      "description": "Calculate enterprise value",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate enterprise value."
+    },
+    "equal_weighting": {
+      "description": "Calculate equal weighting",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate equal weighting."
+    },
+    "equity_beta_from_project_beta": {
+      "description": "Calculate equity beta from project beta",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate equity beta from project beta."
+    },
+    "expected_value": {
+      "description": "Calculate expected value of a discrete random variable",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate expected value of a discrete random variable."
+    },
+    "expenditure_change": {
+      "description": "Calculate percentage change in expenditure based on price elasticity",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate percentage change in expenditure based on price elasticity."
+    },
+    "f_test_variances": {
+      "description": "Calculate F-test statistic for difference between two population variances",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate f-test statistic for difference between two population variances."
+    },
+    "ffo_to_debt": {
+      "description": "Calculate funds from operations to debt ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate funds from operations to debt ratio."
+    },
+    "fifo_cogs": {
+      "description": "Calculate FIFO COGS from LIFO COGS",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate fifo cogs from lifo cogs."
+    },
+    "fifo_inventory": {
+      "description": "Calculate FIFO inventory from LIFO inventory",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate fifo inventory from lifo inventory."
+    },
+    "financial_leverage_ratio": {
+      "description": "Calculate financial leverage ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate financial leverage ratio."
+    },
+    "fiscal_multiplier": {
+      "description": "Calculate fiscal multiplier",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate fiscal multiplier."
+    },
+    "fisher_price_index": {
+      "description": "Calculate Fisher Price Index",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate fisher price index."
+    },
+    "fixed_asset_turnover": {
+      "description": "Calculate fixed asset turnover",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate fixed asset turnover."
+    },
+    "fixed_charge_coverage": {
+      "description": "Calculate fixed charge coverage",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate fixed charge coverage."
+    },
+    "float_adjusted_market_cap_weighting": {
+      "description": "Calculate float-adjusted market capitalization weighting",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate float-adjusted market capitalization weighting."
+    },
+    "float_factor": {
+      "description": "Calculate float factor",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate float factor."
+    },
+    "floating_rate_note_value": {
+      "description": "Calculate value of a floating rate note",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate value of a floating rate note."
+    },
+    "forward_contract_price": {
+      "description": "Calculate forward contract price",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate forward contract price."
+    },
+    "forward_contract_value_during_life": {
+      "description": "Calculate value of a forward contract during its life",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate value of a forward contract during its life."
+    },
+    "forward_points": {
+      "description": "Calculate forward points",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate forward points."
+    },
+    "forward_rate": {
+      "description": "Calculate forward exchange rate",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate forward exchange rate."
+    },
+    "free_cash_flow_to_equity": {
+      "description": "Calculate free cash flow to equity (FCFE)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate free cash flow to equity (fcfe)."
+    },
+    "free_cash_flow_to_firm": {
+      "description": "Calculate free cash flow to the firm (FCFF)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate free cash flow to the firm (fcff)."
+    },
+    "free_operating_cash_flow_to_debt": {
+      "description": "Calculate free operating cash flow to debt ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate free operating cash flow to debt ratio."
+    },
+    "fundamental_weighting": {
+      "description": "Calculate fundamental weighting",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate fundamental weighting."
+    },
+    "future_value_annuity_due": {
+      "description": "Calculate future value of an annuity due",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate future value of an annuity due."
+    },
+    "future_value_continuous": {
+      "description": "Calculate future value with continuous compounding",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate future value with continuous compounding."
+    },
+    "future_value_ordinary_annuity": {
+      "description": "Calculate future value of an ordinary annuity",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate future value of an ordinary annuity."
+    },
+    "future_value_single_cf": {
+      "description": "Calculate future value of a single cash flow",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate future value of a single cash flow."
+    },
+    "g_spread": {
+      "description": "Calculate G-spread",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate g-spread."
+    },
+    "gdp_deflator": {
+      "description": "Calculate GDP deflator",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate gdp deflator."
+    },
+    "gdp_expenditure_approach": {
+      "description": "Calculate GDP using the expenditure approach",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate gdp using the expenditure approach."
+    },
+    "geometric_mean": {
+      "description": "Calculate geometric mean",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate geometric mean."
+    },
+    "geometric_mean_approximation": {
+      "description": "Approximate geometric mean from arithmetic mean and variance",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves approximate geometric mean from arithmetic mean and variance."
+    },
+    "geometric_mean_returns": {
+      "description": "Calculate geometric mean of returns",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate geometric mean of returns."
+    },
+    "gordon_growth_model": {
+      "description": "Calculate stock value using Gordon Growth Model",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate stock value using gordon growth model."
+    },
+    "gordon_growth_model_with_current_dividend": {
+      "description": "Calculate stock value using Gordon Growth Model with current dividend",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate stock value using gordon growth model with current dividend."
+    },
+    "government_saving": {
+      "description": "Calculate government saving",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate government saving."
+    },
+    "gross_profit_margin": {
+      "description": "Calculate gross profit margin",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate gross profit margin."
+    },
+    "harmonic_mean": {
+      "description": "Calculate harmonic mean",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate harmonic mean."
+    },
+    "head_and_shoulders_target_price": {
+      "description": "Calculate target price for head and shoulders pattern",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate target price for head and shoulders pattern."
+    },
+    "hedge_ratio": {
+      "description": "Calculate hedge ratio for a call option",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate hedge ratio for a call option."
+    },
+    "herfindahl_hirschman_index": {
+      "description": "Calculate Herfindahl-Hirschman Index (HHI)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate herfindahl-hirschman index (hhi)."
+    },
+    "holding_period_return": {
+      "description": "Calculate holding period return",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate holding period return."
+    },
+    "horizon_yield": {
+      "description": "Calculate horizon yield",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate horizon yield."
+    },
+    "household_disposable_income": {
+      "description": "Calculate household disposable income",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate household disposable income."
+    },
+    "household_saving": {
+      "description": "Calculate household saving",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate household saving."
+    },
+    "i_spread": {
+      "description": "Calculate I-spread",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate i-spread."
+    },
+    "impairment_loss_ifrs": {
+      "description": "Calculate impairment loss under IFRS",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate impairment loss under ifrs."
+    },
+    "impairment_loss_us_gaap": {
+      "description": "Calculate impairment loss under US GAAP",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate impairment loss under us gaap."
+    },
+    "incentive_fee_hard_hurdle_independent": {
+      "description": "Calculate incentive fee with hard hurdle (independent of management fee)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate incentive fee with hard hurdle (independent of management fee)."
+    },
+    "incentive_fee_hard_hurdle_net_of_management_fee": {
+      "description": "Calculate incentive fee with hard hurdle (net of management fee)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate incentive fee with hard hurdle (net of management fee)."
+    },
+    "incentive_fee_independent": {
+      "description": "Calculate incentive fee independent of management fee",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate incentive fee independent of management fee."
+    },
+    "incentive_fee_net_of_management_fee": {
+      "description": "Calculate incentive fee net of management fee",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate incentive fee net of management fee."
+    },
+    "income_elasticity_of_demand": {
+      "description": "Calculate income elasticity of demand",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate income elasticity of demand."
+    },
+    "income_tax_expense": {
+      "description": "Calculate income tax expense",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate income tax expense."
+    },
+    "information_ratio": {
+      "description": "Calculate information ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate information ratio."
+    },
+    "initial_equity": {
+      "description": "Calculate initial equity",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate initial equity."
+    },
+    "interest_coverage_ratio": {
+      "description": "Calculate interest coverage ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate interest coverage ratio."
+    },
+    "interest_coverage_ratio_ebit": {
+      "description": "Calculate interest coverage ratio using EBIT",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate interest coverage ratio using ebit."
+    },
+    "interest_expense_effective_rate": {
+      "description": "Calculate interest expense using effective interest rate method",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate interest expense using effective interest rate method."
+    },
+    "intrinsic_value": {
+      "description": "Calculate intrinsic value of a share at t=0",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate intrinsic value of a share at t=0."
+    },
+    "intrinsic_value_call": {
+      "description": "Calculate intrinsic value of a call option",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate intrinsic value of a call option."
+    },
+    "intrinsic_value_put": {
+      "description": "Calculate intrinsic value of a put option",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate intrinsic value of a put option."
+    },
+    "inventory_turnover": {
+      "description": "Calculate inventory turnover",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate inventory turnover."
+    },
+    "inverse_head_and_shoulders_target_price": {
+      "description": "Calculate target price for inverse head and shoulders pattern",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate target price for inverse head and shoulders pattern."
+    },
+    "investing_financing_coverage_ratio": {
+      "description": "Calculate investing and financing coverage ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate investing and financing coverage ratio."
+    },
+    "irr_approximation": {
+      "description": "Approximate IRR using NPV",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves approximate irr using npv."
+    },
+    "jensen_alpha": {
+      "description": "Calculate Jensen's alpha",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate jensen's alpha."
+    },
+    "justified_forward_pe": {
+      "description": "Calculate justified forward P/E ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate justified forward p/e ratio."
+    },
+    "laspeyres_price_index": {
+      "description": "Calculate Laspeyres Price Index",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate laspeyres price index."
+    },
+    "line_of_credit_cost": {
+      "description": "Calculate cost of borrowing using line of credit",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cost of borrowing using line of credit."
+    },
+    "linear_demand_price": {
+      "description": "Calculate price from linear demand function Q = a + bP",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate price from linear demand function q = a + bp."
+    },
+    "lognormal_mean": {
+      "description": "Calculate mean of lognormal random variable",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate mean of lognormal random variable."
+    },
+    "lognormal_variance": {
+      "description": "Calculate variance of lognormal random variable",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate variance of lognormal random variable."
+    },
+    "long_call_payoff": {
+      "description": "Calculate payoff of a long call option at expiration",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate payoff of a long call option at expiration."
+    },
+    "long_call_profit": {
+      "description": "Calculate profit of a long call option at expiration",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate profit of a long call option at expiration."
+    },
+    "long_put_payoff": {
+      "description": "Calculate payoff of a long put option at expiration",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate payoff of a long put option at expiration."
+    },
+    "long_put_profit": {
+      "description": "Calculate profit of a long put option at expiration",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate profit of a long put option at expiration."
+    },
+    "lower_bound_american_put": {
+      "description": "Calculate lower bound of an American put option",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate lower bound of an american put option."
+    },
+    "lower_bound_european_call": {
+      "description": "Calculate lower bound of a European call option",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate lower bound of a european call option."
+    },
+    "lower_bound_european_put": {
+      "description": "Calculate lower bound of a European put option",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate lower bound of a european put option."
+    },
+    "m_squared": {
+      "description": "Calculate M-squared (M\u00b2)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate m-squared (m\u00b2)."
+    },
+    "m_squared_alpha": {
+      "description": "Calculate M-squared alpha",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate m-squared alpha."
+    },
+    "macaulay_duration_coupon_bond": {
+      "description": "Calculate Macaulay duration for a coupon bond",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate macaulay duration for a coupon bond."
+    },
+    "management_fee_beginning_market_value": {
+      "description": "Calculate management fee based on beginning market value",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate management fee based on beginning market value."
+    },
+    "management_fee_ending_market_value": {
+      "description": "Calculate management fee based on ending market value",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate management fee based on ending market value."
+    },
+    "margin_call_price": {
+      "description": "Calculate margin call price",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate margin call price."
+    },
+    "marginal_cost": {
+      "description": "Calculate marginal cost",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate marginal cost."
+    },
+    "marginal_propensity_to_consume": {
+      "description": "Calculate marginal propensity to consume",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate marginal propensity to consume."
+    },
+    "marginal_propensity_to_save": {
+      "description": "Calculate marginal propensity to save",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate marginal propensity to save."
+    },
+    "marginal_revenue": {
+      "description": "Calculate marginal revenue",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate marginal revenue."
+    },
+    "marginal_revenue_formula": {
+      "description": "Calculate marginal revenue using slope of demand curve",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate marginal revenue using slope of demand curve."
+    },
+    "marginal_revenue_with_elasticity": {
+      "description": "Calculate marginal revenue using price elasticity of demand",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate marginal revenue using price elasticity of demand."
+    },
+    "market_cap_weighting": {
+      "description": "Calculate market capitalization weighting",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate market capitalization weighting."
+    },
+    "marshall_lerner_condition": {
+      "description": "Check if Marshall-Lerner condition holds",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves check if marshall-lerner condition holds."
+    },
+    "maximum_leverage_ratio": {
+      "description": "Calculate maximum leverage ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate maximum leverage ratio."
+    },
+    "mean_absolute_deviation": {
+      "description": "Calculate mean absolute deviation",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate mean absolute deviation."
+    },
+    "median_position": {
+      "description": "Calculate position of median in a sorted list",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate position of median in a sorted list."
+    },
+    "modified_duration": {
+      "description": "Calculate modified duration",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate modified duration."
+    },
+    "money_duration": {
+      "description": "Calculate money duration (dollar duration)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate money duration (dollar duration)."
+    },
+    "money_market_yield": {
+      "description": "Calculate money market yield",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate money market yield."
+    },
+    "money_multiplier": {
+      "description": "Calculate money multiplier",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate money multiplier."
+    },
+    "mr_from_total_revenue_function": {
+      "description": "Calculate marginal revenue from quadratic total revenue function",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate marginal revenue from quadratic total revenue function."
+    },
+    "net_operating_cycle": {
+      "description": "Calculate net operating cycle (cash conversion cycle)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate net operating cycle (cash conversion cycle)."
+    },
+    "net_present_value": {
+      "description": "Calculate net present value (NPV)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate net present value (npv)."
+    },
+    "net_profit_margin": {
+      "description": "Calculate net profit margin",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate net profit margin."
+    },
+    "neutral_interest_rate": {
+      "description": "Calculate neutral interest rate",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate neutral interest rate."
+    },
+    "new_asset_condition": {
+      "description": "Check condition for adding a new asset to portfolio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves check condition for adding a new asset to portfolio."
+    },
+    "nominal_gdp": {
+      "description": "Calculate nominal GDP",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate nominal gdp."
+    },
+    "nominal_interest_rate": {
+      "description": "Calculate nominal interest rate using Fisher equation",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate nominal interest rate using fisher equation."
+    },
+    "normal_cdf": {
+      "description": "Calculate CDF of normal distribution",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cdf of normal distribution."
+    },
+    "normal_profit": {
+      "description": "Calculate normal profit",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate normal profit."
+    },
+    "odds_against_event": {
+      "description": "Calculate odds against an event",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate odds against an event."
+    },
+    "odds_for_event": {
+      "description": "Calculate odds for an event",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate odds for an event."
+    },
+    "operating_break_even_units": {
+      "description": "Calculate operating break-even units (operating income = 0)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate operating break-even units (operating income = 0)."
+    },
+    "operating_cycle": {
+      "description": "Calculate operating cycle",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate operating cycle."
+    },
+    "operating_profit_margin": {
+      "description": "Calculate operating profit margin",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate operating profit margin."
+    },
+    "operating_roa": {
+      "description": "Calculate operating return on assets (ROA)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate operating return on assets (roa)."
+    },
+    "option_adjusted_spread": {
+      "description": "Calculate option-adjusted spread (OAS)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate option-adjusted spread (oas)."
+    },
+    "option_time_value": {
+      "description": "Calculate time value of an option",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate time value of an option."
+    },
+    "paasche_price_index": {
+      "description": "Calculate Paasche Price Index",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate paasche price index."
+    },
+    "payables_turnover": {
+      "description": "Calculate payables turnover",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate payables turnover."
+    },
+    "percentile_position": {
+      "description": "Calculate position of percentile in a sorted list",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate position of percentile in a sorted list."
+    },
+    "permutation": {
+      "description": "Calculate number of permutations (nPr)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate number of permutations (npr)."
+    },
+    "population_std_dev": {
+      "description": "Calculate population standard deviation",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate population standard deviation."
+    },
+    "population_variance": {
+      "description": "Calculate population variance",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate population variance."
+    },
+    "portfolio_beta": {
+      "description": "Calculate portfolio beta",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate portfolio beta."
+    },
+    "portfolio_duration": {
+      "description": "Calculate portfolio duration",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate portfolio duration."
+    },
+    "portfolio_expected_return": {
+      "description": "Calculate portfolio expected return",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate portfolio expected return."
+    },
+    "portfolio_return_three_asset": {
+      "description": "Calculate expected return of a three-asset portfolio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate expected return of a three-asset portfolio."
+    },
+    "portfolio_return_two_asset": {
+      "description": "Calculate expected return of a two-asset portfolio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate expected return of a two-asset portfolio."
+    },
+    "portfolio_std_dev": {
+      "description": "Calculate portfolio standard deviation",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate portfolio standard deviation."
+    },
+    "portfolio_variance_many_assets": {
+      "description": "Calculate portfolio variance for many equally weighted assets",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate portfolio variance for many equally weighted assets."
+    },
+    "portfolio_variance_three_asset": {
+      "description": "Calculate variance of a three-asset portfolio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate variance of a three-asset portfolio."
+    },
+    "portfolio_variance_two_asset": {
+      "description": "Calculate variance of a two-asset portfolio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate variance of a two-asset portfolio."
+    },
+    "portfolio_variance_two_assets": {
+      "description": "Calculate portfolio variance for two assets",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate portfolio variance for two assets."
+    },
+    "potential_gdp_growth": {
+      "description": "Calculate potential GDP growth rate",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate potential gdp growth rate."
+    },
+    "preferred_stock_value_noncallable_nonconvertible_maturity": {
+      "description": "Calculate value of preferred stock (non-callable, non-convertible, with maturity)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate value of preferred stock (non-callable, non-convertible, with maturity)."
+    },
+    "preferred_stock_value_perpetual": {
+      "description": "Calculate value of perpetual preferred stock",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate value of perpetual preferred stock."
+    },
+    "present_value_annuity_due": {
+      "description": "Calculate present value of an annuity due",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate present value of an annuity due."
+    },
+    "present_value_continuous": {
+      "description": "Calculate present value with continuous compounding",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate present value with continuous compounding."
+    },
+    "present_value_ordinary_annuity": {
+      "description": "Calculate present value of an ordinary annuity",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate present value of an ordinary annuity."
+    },
+    "present_value_perpetuity": {
+      "description": "Calculate present value of a perpetuity",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate present value of a perpetuity."
+    },
+    "present_value_single_cf": {
+      "description": "Calculate present value of a single future cash flow",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate present value of a single future cash flow."
+    },
+    "pretax_margin": {
+      "description": "Calculate pretax margin",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate pretax margin."
+    },
+    "price_change_money": {
+      "description": "Estimate price change in money terms using duration",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves estimate price change in money terms using duration."
+    },
+    "price_change_percentage": {
+      "description": "Estimate percentage price change using duration",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves estimate percentage price change using duration."
+    },
+    "price_change_with_convexity": {
+      "description": "Estimate price change using duration and convexity",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves estimate price change using duration and convexity."
+    },
+    "price_elasticity_of_demand": {
+      "description": "Calculate own-price elasticity of demand",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate own-price elasticity of demand."
+    },
+    "price_return": {
+      "description": "Calculate price return of an index",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate price return of an index."
+    },
+    "price_return_index": {
+      "description": "Calculate price return index",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate price return index."
+    },
+    "price_weighting": {
+      "description": "Calculate price weighting",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate price weighting."
+    },
+    "probability_from_odds": {
+      "description": "Calculate probability from odds ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate probability from odds ratio."
+    },
+    "profitability_index": {
+      "description": "Calculate profitability index (PI)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate profitability index (pi)."
+    },
+    "project_beta": {
+      "description": "Calculate project beta",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate project beta."
+    },
+    "project_beta_zero_debt_beta": {
+      "description": "Calculate project beta when debt beta is zero",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate project beta when debt beta is zero."
+    },
+    "put_call_forward_parity": {
+      "description": "Check if put-call-forward parity holds",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves check if put-call-forward parity holds."
+    },
+    "put_call_parity": {
+      "description": "Check if put-call parity holds",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves check if put-call parity holds."
+    },
+    "quick_ratio": {
+      "description": "Calculate quick (acid test) ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate quick (acid test) ratio."
+    },
+    "range_statistic": {
+      "description": "Calculate range statistic",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate range statistic."
+    },
+    "real_estate_gordon_growth_model": {
+      "description": "Calculate property value using Gordon Growth Model",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate property value using gordon growth model."
+    },
+    "real_estate_income_approach": {
+      "description": "Calculate property value using income approach",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate property value using income approach."
+    },
+    "real_exchange_rate": {
+      "description": "Calculate real exchange rate",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate real exchange rate."
+    },
+    "real_gdp": {
+      "description": "Calculate real GDP",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate real gdp."
+    },
+    "real_return": {
+      "description": "Calculate real return",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate real return."
+    },
+    "receivables_turnover": {
+      "description": "Calculate receivables turnover",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate receivables turnover."
+    },
+    "reinvestment_coverage_ratio": {
+      "description": "Calculate reinvestment coverage ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate reinvestment coverage ratio."
+    },
+    "remaining_useful_life": {
+      "description": "Calculate remaining useful life of asset base",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate remaining useful life of asset base."
+    },
+    "retention_rate": {
+      "description": "Calculate retention rate",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate retention rate."
+    },
+    "return_on_assets": {
+      "description": "Calculate return on assets (ROA)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate return on assets (roa)."
+    },
+    "return_on_capital": {
+      "description": "Calculate return on capital",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate return on capital."
+    },
+    "return_on_common_equity": {
+      "description": "Calculate return on common equity",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate return on common equity."
+    },
+    "return_on_equity": {
+      "description": "Calculate return on equity (ROE)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate return on equity (roe)."
+    },
+    "return_on_equity_average": {
+      "description": "Calculate return on equity using average total book value of equity",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate return on equity using average total book value of equity."
+    },
+    "return_on_equity_beginning": {
+      "description": "Calculate return on equity using beginning book value of equity",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate return on equity using beginning book value of equity."
+    },
+    "return_on_total_capital": {
+      "description": "Calculate return on total capital",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate return on total capital."
+    },
+    "risk_neutral_probability": {
+      "description": "Calculate risk-neutral probability in binomial model",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate risk-neutral probability in binomial model."
+    },
+    "risky_asset_pricing": {
+      "description": "Calculate price of a risky asset",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate price of a risky asset."
+    },
+    "roys_safety_first_ratio": {
+      "description": "Calculate Roy's safety-first ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate roy's safety-first ratio."
+    },
+    "sample_excess_kurtosis": {
+      "description": "Calculate sample excess kurtosis",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate sample excess kurtosis."
+    },
+    "sample_skewness": {
+      "description": "Calculate sample skewness",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate sample skewness."
+    },
+    "sample_std_dev": {
+      "description": "Calculate sample standard deviation",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate sample standard deviation."
+    },
+    "sample_variance": {
+      "description": "Calculate sample variance",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate sample variance."
+    },
+    "savings_rate": {
+      "description": "Calculate savings rate",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate savings rate."
+    },
+    "semideviation": {
+      "description": "Calculate semideviation",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate semideviation."
+    },
+    "semivariance": {
+      "description": "Calculate semivariance",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate semivariance."
+    },
+    "sharpe_ratio": {
+      "description": "Calculate Sharpe ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate sharpe ratio."
+    },
+    "short_call_payoff": {
+      "description": "Calculate payoff of a short call option at expiration",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate payoff of a short call option at expiration."
+    },
+    "short_call_profit": {
+      "description": "Calculate profit of a short call option at expiration",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate profit of a short call option at expiration."
+    },
+    "short_put_payoff": {
+      "description": "Calculate payoff of a short put option at expiration",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate payoff of a short put option at expiration."
+    },
+    "short_put_profit": {
+      "description": "Calculate profit of a short put option at expiration",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate profit of a short put option at expiration."
+    },
+    "shortfall_risk": {
+      "description": "Calculate shortfall risk using Roy's safety-first ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate shortfall risk using roy's safety-first ratio."
+    },
+    "simple_yield": {
+      "description": "Calculate simple yield",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate simple yield."
+    },
+    "single_monthly_mortality_rate": {
+      "description": "Calculate single monthly mortality rate (SMM)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate single monthly mortality rate (smm)."
+    },
+    "spearman_rank_correlation": {
+      "description": "Calculate Spearman's rank correlation coefficient",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate spearman's rank correlation coefficient."
+    },
+    "spearman_test_statistic": {
+      "description": "Calculate test statistic for Spearman's rank correlation",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate test statistic for spearman's rank correlation."
+    },
+    "standard_normal_cdf": {
+      "description": "Calculate CDF of standard normal distribution",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cdf of standard normal distribution."
+    },
+    "std_dev_discrete_rv": {
+      "description": "Calculate standard deviation of a discrete random variable",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate standard deviation of a discrete random variable."
+    },
+    "straight_line_depreciation": {
+      "description": "Calculate straight line depreciation expense",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate straight line depreciation expense."
+    },
+    "sustainable_growth_rate": {
+      "description": "Calculate sustainable growth rate",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate sustainable growth rate."
+    },
+    "synthetic_call": {
+      "description": "Calculate synthetic call price using put-call parity",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate synthetic call price using put-call parity."
+    },
+    "synthetic_put": {
+      "description": "Calculate synthetic put price using put-call parity",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate synthetic put price using put-call parity."
+    },
+    "t_test_statistic": {
+      "description": "Calculate t-test statistic",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate t-test statistic."
+    },
+    "t_test_two_means": {
+      "description": "Calculate t-test statistic for difference between two population means",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate t-test statistic for difference between two population means."
+    },
+    "target_semideviation": {
+      "description": "Calculate target semideviation",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate target semideviation."
+    },
+    "target_semivariance": {
+      "description": "Calculate target semivariance",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate target semivariance."
+    },
+    "total_asset_turnover": {
+      "description": "Calculate total asset turnover",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate total asset turnover."
+    },
+    "total_cost": {
+      "description": "Calculate total cost",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate total cost."
+    },
+    "total_money_created": {
+      "description": "Calculate total money created from new deposit",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate total money created from new deposit."
+    },
+    "total_return_index": {
+      "description": "Calculate total return index",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate total return index."
+    },
+    "total_return_leveraged_stock": {
+      "description": "Calculate total return on leveraged stock investment",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate total return on leveraged stock investment."
+    },
+    "total_revenue": {
+      "description": "Calculate total revenue",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate total revenue."
+    },
+    "treynor_ratio": {
+      "description": "Calculate Treynor ratio",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate treynor ratio."
+    },
+    "two_stage_dividend_discount_model": {
+      "description": "Calculate stock value using two-stage dividend discount model",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate stock value using two-stage dividend discount model."
+    },
+    "uniform_cdf": {
+      "description": "Calculate CDF of continuous uniform distribution",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate cdf of continuous uniform distribution."
+    },
+    "uniform_mean": {
+      "description": "Calculate mean of continuous uniform distribution",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate mean of continuous uniform distribution."
+    },
+    "uniform_pdf": {
+      "description": "Calculate PDF of continuous uniform distribution",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate pdf of continuous uniform distribution."
+    },
+    "uniform_variance": {
+      "description": "Calculate variance of continuous uniform distribution",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate variance of continuous uniform distribution."
+    },
+    "unit_labor_cost_change": {
+      "description": "Calculate percentage change in unit labor cost",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate percentage change in unit labor cost."
+    },
+    "units_of_production_depreciation": {
+      "description": "Calculate units of production depreciation expense",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate units of production depreciation expense."
+    },
+    "utility_function": {
+      "description": "Calculate utility using mean-variance utility function",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate utility using mean-variance utility function."
+    },
+    "variance_discrete_rv": {
+      "description": "Calculate variance of a discrete random variable",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate variance of a discrete random variable."
+    },
+    "weighted_average_cost_of_capital": {
+      "description": "Calculate weighted average cost of capital (WACC)",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate weighted average cost of capital (wacc)."
+    },
+    "weighted_mean": {
+      "description": "Calculate weighted mean",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate weighted mean."
+    },
+    "working_capital_turnover": {
+      "description": "Calculate working capital turnover",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate working capital turnover."
+    },
+    "z_test_statistic": {
+      "description": "Calculate Z-test statistic",
+      "claude_finetuning_use": "This function can be framed as a callable tool within a Claude agent to assist with automated financial reasoning, quantitative modeling, or educational scenarios. Use it when a query involves calculate z-test statistic."
+    }
+  }

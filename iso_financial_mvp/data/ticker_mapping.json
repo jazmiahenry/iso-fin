@@ -1,0 +1,71 @@
+{
+  "crypto": {
+    "bitcoin": "BTC-USD",
+    "ethereum": "ETH-USD",
+    "solana": "SOL-USD",
+    "cardano": "ADA-USD",
+    "binance": "BNB-USD",
+    "ripple": "XRP-USD",
+    "dogecoin": "DOGE-USD",
+    "polkadot": "DOT-USD",
+    "avalanche": "AVAX-USD",
+    "cosmos": "ATOM-USD",
+    "litecoin": "LTC-USD",
+    "chainlink": "LINK-USD",
+    "polygon": "MATIC-USD",
+    "uniswap": "UNI-USD",
+    "stablecoin": "USDC-USD"
+  },
+  "traditional": {
+    "us_stocks": "SPY",
+    "global_stocks": "ACWI",
+    "tech_stocks": "QQQ",
+    "bonds": "AGG",
+    "treasury_bonds": "IEF",
+    "gold": "GLD",
+    "commodities": "DBC",
+    "real_estate": "VNQ",
+    "emerging_markets": "EEM",
+    "small_cap": "IWM",
+    "large_cap": "VV",
+    "energy": "XLE",
+    "financials": "XLF",
+    "healthcare": "XLV",
+    "consumer_discretionary": "XLY",
+    "consumer_staples": "XLP"
+  },
+  "alternative": {
+    "crypto_index": "BITW",
+    "private_equity": "PSP",
+    "hedge_funds": "QAI",
+    "venture_capital": "ARKK",
+    "art": "ARTNA",
+    "collectibles": "COIN",
+    "rare_coins": "SPDR",
+    "wine": "WBWL",
+    "luxury_watches": "SWSS",
+    "rare_books": "AMZN",
+    "classic_cars": "RACE"
+  },
+  "nft": {
+    "bored_ape": "APE-USD",
+    "cryptopunks": "ETH-USD",
+    "art_blocks": "ETH-USD",
+    "nft_index": "ETH-USD"
+  },
+  "real_estate": {
+    "residential": "VNQ",
+    "commercial": "BXMT",
+    "reit": "VNQ",
+    "international": "RWX",
+    "mortgage": "REM"
+  },
+  "collectible": {
+    "art": "ARTNA",
+    "watches": "SWSS",
+    "wine": "WBWL",
+    "coins": "SPDR",
+    "cards": "EBAY",
+    "memorabilia": "EBAY"
+  }
+}
